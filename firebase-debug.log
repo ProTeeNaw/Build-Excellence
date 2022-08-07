@@ -1,0 +1,47 @@
+[debug] [2022-08-01T21:51:17.909Z] ----------------------------------------------------------------------
+[debug] [2022-08-01T21:51:17.912Z] Command:       C:\Users\DELLE6~1\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\Dell E6540 BoB\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase init
+[debug] [2022-08-01T21:51:17.913Z] CLI Version:   11.2.1
+[debug] [2022-08-01T21:51:17.913Z] Platform:      win32
+[debug] [2022-08-01T21:51:17.913Z] Node Version:  v16.15.0
+[debug] [2022-08-01T21:51:17.914Z] Time:          Mon Aug 01 2022 23:51:17 GMT+0200 (South Africa Standard Time)
+[debug] [2022-08-01T21:51:17.915Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-01T21:51:17.920Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-08-01T21:51:17.960Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-01T21:51:17.960Z] > authorizing via signed-in user (tnmunhenga@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Dell E6540 BoB\Desktop\Build Excellence
+
+[debug] [2022-08-01T21:51:18.721Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-08-01T21:51:18.721Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-01T21:52:15.877Z] > refreshing access token with scopes: []
+[debug] [2022-08-01T21:52:15.878Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-08-01T21:52:15.878Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-08-01T21:52:16.316Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-08-01T21:52:16.316Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-08-01T21:52:16.337Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-08-01T21:52:18.089Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-08-01T21:52:18.090Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project build-excellence (Build-Excellence) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
